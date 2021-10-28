@@ -66,3 +66,18 @@
 .numbers-btn button:hover{
     background-color: rgb(107, 105, 105);
 }
+
+@media screen  and (max-width:700px){
+    .container{
+        width: 70%;
+    }
+}
+
+@media screen  and (max-width:450px){
+    .container{
+        width: 90%;
+    }
+    .operators-btn {
+        font-size:15px ;
+    }
+}
